@@ -172,8 +172,58 @@
 			height: 80vh;
 		}
 
+		.projectBox{
+			display: flex;
+			justify-content: space-around;
+			margin: 13px 0;
+			align-items: center;
+		}
+
 		.thirdSection h1{
 			font-size: 2rem;
+		}
+
+		.thirdSection img{
+			width: 250px;
+			border-radius: 20px;
+		}
+
+		.imageBox{
+			margin-top: 20px;
+			width: 250px;
+			height: 350px;
+			border-radius: 20px;
+			border: 3px solid white;
+			background-color: white;
+		}
+
+		.imageBox:hover{
+			box-shadow: 0px 3px 50px rgba(113, 115, 119, 1);
+		}
+
+		.imageBox a{
+			margin-top: 35px;
+			text-decoration: none;
+		}
+
+		.imageInfo{
+			background-color: white;
+			font-size: 20px;
+			color: black;
+			text-align: center;
+			border-radius: 15px;
+		}
+
+		#clock{
+			margin-top: 50px;
+		}
+
+		#clockInfo{
+			padding-top: 63px;
+		}
+
+		#ticInfo{
+			padding-top: 30px;
 		}
 
 		footer{
@@ -292,6 +342,30 @@
 					<div class="vertical-desc">
 						Currently studying in <a href="https://www.lna.edu.np" target="_blank"><b>Laligurans National Academy</b></a> as of 2023.
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="thirdSection">
+			<h1>Projects</h1>
+			<div class="projectBox">
+				<div class="imageBox">
+					<a href="https://github.com/Yudin101/calculator" target="_blank">
+						<img src="images/calculator.png">
+						<div class="imageInfo">Calculator</div>
+					</a>
+				</div>
+				<div class="imageBox">
+					<a href="https://github.com/Yudin101/analogClock" target="_blank">
+						<img src="images/clock.png" id="clock">
+						<div id="clockInfo" class="imageInfo">Analog Clock</div>
+					</a>
+				</div>
+				<div class="imageBox">
+					<a href="https://github.com/Yudin101/TicTacToe-Web" target="_blank">
+						<img src="images/tictactoe.png">
+						<div id="ticInfo" class="imageInfo">Tic Tac Toe Game</div>
+					</a>
 				</div>
 			</div>
 		</section>
