@@ -60,11 +60,7 @@ nav ul li a:hover{
 	color: #7278ed;
 }
 
-.contact{
-	color: #7278ed;
-}
-
-main hr{
+hr{
 	color: blue;
 	height: 0.001px;
 	margin: 60px 90px;
@@ -367,3 +363,127 @@ footer{
 	box-shadow: 0px 3px 50px rgba(113, 115, 119, 1);
 
 }
+
+@media screen and (max-width: 1300px){
+
+/*	Common CSS*/
+	
+	.left{
+		margin-left: 3px;
+	}
+
+	.firstSection{
+		flex-direction: column;
+	}
+
+	.firstSection img{
+		margin: 15px 0;
+	}
+
+	.footer-h3{
+		left: -50%;
+	}
+
+	hr{
+		margin: 30px 50px;
+	}
+
+/*	For index.html*/
+
+	.firstSection #firstDivIndex{
+		width: 250px;
+	}
+
+	.leftSectionIndex{
+		margin-top: -70px;
+		width: 50px;
+	}
+
+	.rightSection img{
+		margin-top: 40px;
+		margin-bottom: -50px;
+		width: 200px;
+		position: relative;
+		left: -50px;
+	}
+
+/*	For about.html*/
+
+	.projectBox{
+		flex-direction: column;
+	}
+
+	.thirdSection{
+		height: 200vh;
+	}
+
+	.secondSection{
+		height: 90vh;
+	}
+
+	.box{
+		flex-direction: column;
+	}
+
+	.image-top{
+		top: 21px;
+	}
+
+	.vertical{
+		position: relative;
+		left: -100px;
+		height: 0;
+	}
+
+	.vertical-title{
+		width: 210px;
+		top: -26px;
+		left: 33px;
+		font-size: 1rem;
+	}
+
+	.vertical-desc{
+		width: 205px;
+		top: -26px;
+		left: 35px;
+	}
+
+/*	For contact.html*/
+
+	#find-me img{
+		top: -47px;
+		left: 0px;
+	}
+
+/*	For about.html and contact.html*/
+	
+	.rs-box{
+		font-size: 19px;
+		width: 250px;
+		position: relative;
+		left: -100px;
+	}
+
+	.leftSection img{
+		position: relative;
+		left: -75px;
+		width: 250px;
+	}
+
+
+}
+
+@media screen and (max-width: 600px){
+	nav ul{
+		font-size: 1rem;
+	}
+
+	nav ul li{
+		margin: 0 9px;
+	}
+
+	.left{
+		font-size: 1rem;
+	}
+}
+
