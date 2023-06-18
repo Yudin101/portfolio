@@ -302,6 +302,20 @@ footer{
 	padding-top: 30px;
 }
 
+.githubLink{
+	text-align: center;
+	margin: 20px 0;
+}
+
+.githubLink a{
+	text-decoration: none;
+	color: white;
+}
+
+.githubLink a:hover{
+	color: #7278ed;
+}
+
 
 
 /*For contact.html*/
@@ -455,6 +469,10 @@ footer{
 		left: 0px;
 	}
 
+	#contactEmail{
+		font-size: 16px;
+	}
+
 /*	For about.html and contact.html*/
 	
 	.rs-box{
@@ -468,6 +486,12 @@ footer{
 		position: relative;
 		left: -75px;
 		width: 250px;
+	}
+
+	#firstSectionAbout, #firstSectionContact{
+		position: relative;
+		top: -80px;
+		margin-bottom: -30px;
 	}
 
 
