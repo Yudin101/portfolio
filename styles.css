@@ -381,6 +381,10 @@ footer{
 @media screen and (max-width: 1300px){
 
 /*	Common CSS*/
+
+	body{
+		overflow-x: hidden;
+	}
 	
 	.left{
 		margin-left: 3px;
