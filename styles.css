@@ -36,7 +36,7 @@ nav ul li a{
 	color: white;
 	display: inline-block;
   	position: relative;
-  	transition: 0.25s;
+  	transition: 0.40s;
 }
 
 nav ul li a::after{
@@ -58,6 +58,7 @@ nav ul li a:hover::after{
 }
 
 nav ul li a:hover{
+	letter-spacing: 0.1em;
 	color: #7278ed;
 }
 
@@ -164,6 +165,7 @@ footer{
 .leftSectionIndex .btn:hover{
 	color: black;
 	background-color: gray;
+	letter-spacing: 0.08em;
 }
 
 .rightSection img{
