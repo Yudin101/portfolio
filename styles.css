@@ -192,6 +192,10 @@ footer{
 	color: rgb(3, 168, 3);
 }
 
+.orange{
+	color: orange;
+}
+
 .secondSection{
 	max-width: 80vw;
 	margin: auto;
@@ -245,6 +249,10 @@ footer{
 	text-decoration: none;
 	color: gray;
 	cursor: pointer;
+}
+
+.vertical-desc a:hover{
+	color: #7278ff;
 }
 
 .thirdSection{
