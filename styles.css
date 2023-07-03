@@ -427,6 +427,11 @@ footer{
 
 	.firstSection #firstDivIndex{
 		width: 250px;
+		font-size: 17px;
+	}
+
+	.leftSectionIndex .btn{
+		font-size: 17px;
 	}
 
 	.leftSectionIndex{
