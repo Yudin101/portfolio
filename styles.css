@@ -133,6 +133,15 @@ footer{
 	border-radius: 0.7em;
 }
 
+.footer-rights a{
+	text-decoration: none;
+	color: gray;
+}
+
+.footer-rights a:hover{
+	text-decoration: underline;
+}
+
 
 
 /*For index.html*/
